@@ -31,12 +31,12 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.bannerContent}>
             <Heading as="h1">
-              A Creative way to grow your Exciting Business ideas
+            Clean Beyond the Surface 
             </Heading>
             <Text as="p">
-              Get your tests delivered at let home collect sample from the
-              victory of the managements that supplies best design system
-              guidelines ever.
+            We provide deep, thorough cleaning for carpets, 
+            staircases, and facades, enhancing appearance and promoting a healthier,
+             welcoming environment.
             </Text>
             <SubscriptionForm sx={styles.subscriptionForm} />
             <Flex sx={styles.sponsoredBy}>

@@ -5,11 +5,17 @@ import { LearnMore } from 'components/link';
 
 const Feature = ({ data, ...props }) => {
   return (
-    <Box sx={styles.feature} {...props}>
-      <Box as="figure">
-        <Image src={data?.icon} alt={data?.title} />
-      </Box>
-      <Box>
+    <Box  sx={{
+      ...styles.feature ,
+      backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)) ,url(${data?.image}) `,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+    }} {...props}>
+      {/*<Box as="figure">
+        <Image src={data?.image} alt={data?.title}  />
+      </Box>*/}
+      <Box sx={styles.overlay} >
         <Heading as="h4">{data?.title}</Heading>
         <Text as="p">{data?.description}</Text>
         {data?.path && <LearnMore path={data?.path} />}
@@ -63,5 +69,10 @@ const styles = {
     a: {
       mt: [2, null, null, null, 6],
     },
+  },
+  overlay: {
+    //backgroundColor: "rgba(0, 0, 0, 0.5)", 
+    color: "white",
+    textAlign: "center",
   },
 };

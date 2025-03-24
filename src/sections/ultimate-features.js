@@ -10,6 +10,12 @@ import icon3 from 'assets/images/features/3.png';
 import icon4 from 'assets/images/features/4.png';
 import icon5 from 'assets/images/features/5.png';
 import icon6 from 'assets/images/features/6.png';
+import img1 from 'assets/images/services/Glas-Rahmenreinigung.jpg';
+import img2 from 'assets/images/services/Bodenreinigung.jpg';
+import img3 from 'assets/images/services/Fassadenreinigung.jpg';
+import img4 from 'assets/images/services/Teppichreinigung.jpg';
+import img5 from 'assets/images/services/Treppenhausreinigung.jpg';
+import img6 from 'assets/images/services/Unterhaltsreinigung.jpg';
 
 const data = [
   {
@@ -17,48 +23,48 @@ const data = [
     icon: icon1,
     path: '#!',
     title: 'Glas-/Rahmen­reinigung',
-    description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
-    image : ""
+    description: `We provide professional cleaning services for glass frames, ensuring they stay clear and spotless.`,
+    image : img1
   },
   {
     id: 2,
     icon: icon2,
     path: '#!',
-    title: 'Treppen­haus­reinigung',
-    description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
-    image : ""
+    title: 'Bodenreinigung',
+    description: `Keep your floors pristine with our thorough cleaning services designed for all types of flooring.`,
+    image : img2
   },
   {
     id: 3,
     icon: icon3,
     path: '#!',
-    title: 'Unterhalts­reinigung',
-    description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
-    image : ""
+    title: 'Fassadenreinigung',
+    description: `Unsere Fassadenreinigung entfernt Schmutz und Flecken und sorgt für ein frisches Aussehen Ihrer Immobilie.`,
+    image : img3
   },
   {
     id: 4,
     icon: icon4,
     path: '#!',
-    title: 'Fassaden­reinigung',
-    description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
-    image : ""
+    title: 'Teppichreinigung',
+    description: `Wir bieten eine Tiefenreinigung für Teppiche, um Staub, Flecken und Allergene zu entfernen und sie frisch und hygienisch zu halten.`,
+    image : img4
   },
   {
     id: 5,
     icon: icon5,
     path: '#!',
-    title: 'Sonder­reinigung',
-    description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
-    image : ""
+    title: 'Treppenhausreinigung',
+    description: `Unsere Treppenhausreinigung sorgt für Sauberkeit und Sicherheit in Ihrem Gebäude.`,
+    image : img5
   },
   {
     id: 6,
     icon: icon6,
     path: '#!',
-    title: 'Bau­abschluss­reinigung',
-    description: `We’re driven beyond just finishing projects. We want to find smart solutions.`,
-    image : ""
+    title: 'Unterhaltsreinigung',
+    description: `Regelmäßige Reinigungslösungen zur Aufrechterhaltung der Sauberkeit und Hygiene Ihrer Immobilie.`,
+    image : img6
   },
 ];
 
@@ -68,8 +74,10 @@ const UltimateFeatures = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          slogan="Ideal solutions for you"
-          title="Go beyond ultimate features"
+          slogan="Sparkling Spaces, Clean Surroundings"
+          title="Experience the difference with our expert cleaning services,
+           from crystal-clear glass frames to spotless floors and facades.
+            We bring freshness to every corner, ensuring your property always shines!"
         />
         <Box sx={styles.grid}>
           {data?.map((item) => (

@@ -11,18 +11,18 @@ export default function Footer() {
   return (
     <footer sx={styles.footer}>
       <Container>
-        <Box sx={styles.footerTopInner}>
+        {/*<Box sx={styles.footerTopInner}>
           {menuItems.map(({ id, title, items }) => (
             <FooterWidget key={id} title={title} items={items} />
           ))}
-        </Box>
+        </Box>*/}
       </Container>
       <Container>
         <Box sx={styles.footerInner}>
           <Box sx={styles.copyright}>
-            <Logo sx={styles.logo} />
+            {/*<Logo sx={styles.logo} />*/}
             <Text as="span">
-              Copyright by {new Date().getFullYear()} RedQ, Inc
+              Copyright by {new Date().getFullYear()} M, Inc
             </Text>
           </Box>
 
