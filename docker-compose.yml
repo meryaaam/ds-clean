@@ -1,0 +1,43 @@
+ 
+services:
+  app:
+    image: node:20 
+    build:
+      context: ./ 
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_HOST=${NEXT_PUBLIC_HOST}
+      
+    volumes:
+      - ./app:/app
+    ports:
+      - '3000:3000'
+    command: bash -c "npm install && npm run dev"
+    
+    environment:
+      - NEXT_PUBLIC_HOST=${NEXT_PUBLIC_HOST}
+      - NODE_ENV= developement
+      - HOSTNAME=${NEXT_PUBLIC_HOST}
+      
+    networks:
+      - default
+      - proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=proxy"
+      # Activation of TLS
+      # - "traefik.http.routers.cms-pma.tls=true"
+      # Used for display.
+      - "traefik.http.routers.nextjs.rule=Host(`app.${COMPOSE_PROJECT_NAME}.localhost`)"
+      # Activation of TLS
+      # - "traefik.http.routers.whoami.tls=true"
+      - "traefik.http.services.nextjs.loadbalancer.server.port=3000"
+      - "localhost.url=http://app.${COMPOSE_PROJECT_NAME}.localhost"
+
+ 
+ 
+
+networks:
+  default:
+  proxy:
+    external: true

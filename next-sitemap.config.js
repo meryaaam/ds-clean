@@ -1,5 +1,6 @@
+/** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://startuplanding.io',
+  siteUrl: 'https://ds-clean-ka3gainx0-meriechhs-projects.vercel.app/',
   generateRobotsTxt: true,
   // optional
   // robotsTxtOptions: {
@@ -10,3 +11,6 @@ module.exports = {
   //   ],
   // },
 };
+
+
+ 
