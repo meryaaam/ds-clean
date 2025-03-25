@@ -1,5 +1,6 @@
+/** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://startuplanding.io',
+  siteUrl: 'https://wr.vercel.com',
   generateRobotsTxt: true,
   // optional
   // robotsTxtOptions: {
@@ -10,3 +11,6 @@ module.exports = {
   //   ],
   // },
 };
+
+
+ 
