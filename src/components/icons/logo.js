@@ -2,74 +2,16 @@ import React from 'react';
 
 const Logo = ({ white, ...props }) => {
   return (
-    <svg viewBox="0 0 185.92 36.62" width={185.92} height={36.62} {...props}>
+    <svg viewBox="0 0 1051.33 243.38" width={220} height={60} {...props}>
       <defs>
-        <linearGradient
-          id="prefix__b"
-          x1={16.08}
-          y1={-16.52}
-          x2={10.26}
-          y2={20.44}
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset={0} stopColor="#0096d9" />
-          <stop offset={1} stopColor="#00c198" />
-        </linearGradient>
-        <linearGradient
-          id="prefix__c"
-          x1={8.95}
-          y1={13.48}
-          x2={18.28}
-          y2={32.02}
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset={0} stopColor="#002dd9" />
-          <stop offset={1} stopColor="#00b2ab" />
-        </linearGradient>
-        <linearGradient
-          id="prefix__a"
-          x1={23.33}
-          y1={-3.39}
-          x2={5.66}
-          y2={37.65}
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset={0} stopColor="#3482c0" />
-          <stop offset={0.45} stopColor="#96bede" />
-          <stop offset={0.83} stopColor="#e1edf6" />
-          <stop offset={1} stopColor="#fff" />
-        </linearGradient>
-        <linearGradient
-          id="prefix__d"
-          x1={21.64}
-          y1={1.42}
-          x2={6.63}
-          y2={30.44}
-          xlinkHref="#prefix__a"
-        />
-        <linearGradient
-          id="prefix__e"
-          x1={25.15}
-          y1={3.24}
-          x2={10.14}
-          y2={32.25}
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset={0} stopColor="#569fa1" />
-          <stop offset={0.36} stopColor="#97c4c5" />
-          <stop offset={0.8} stopColor="#e2eeef" />
-          <stop offset={1} stopColor="#fff" />
-        </linearGradient>
-        <radialGradient
-          id="prefix__f"
-          cx={21.16}
-          cy={32.05}
-          r={27.25}
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop offset={0} stopColor="#ff0" />
-          <stop offset={1} />
-        </radialGradient>
+        <style>
+          {`.cls-1 {
+              fill: ${white ? 'white' : '#182953'};
+            }
+            .cls-2 {
+              fill: ${white ? 'white' : '#1a2a56'};
+            }`}
+        </style>
       </defs>
       <g>
     <g>
