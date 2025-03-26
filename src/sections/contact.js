@@ -32,12 +32,12 @@ export default function ContactForm() {
   };
 
   return (
-    <Box as="section" sx={style.section}>
+    <Box id="contact" as="section" sx={style.section}>
       <Container >
       <h1 className={styles.headerTitle}>Kostenlose & unverbindliche Angebotsanfrage</h1>
       <h2 className={styles.headerSubtitle}>Sie erhalten innerhalb von 24h eine Antwort</h2>
      
-      <div className={styles.formContainer}>
+      <div  className={styles.formContainer}>
         <h1 className={styles.formTitle}>Contact Form</h1>
         
         <form onSubmit={handleSubmit} className={styles.form}>

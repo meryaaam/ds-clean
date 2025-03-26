@@ -7,20 +7,21 @@ export default [
     path: 'features',
     label: 'Feature',
   },
-  {
-    path: 'pricing',
-    label: 'Pricing',
-  },
+  
   {
     path: 'support',
     label: 'Support',
   },
   {
+    path: 'contact',
+    label: 'Contact',
+  },
+ /* {
     path: 'blog',
     label: 'Blog',
   },
   {
     path: 'faq',
     label: 'Faq',
-  },
+  },*/
 ];

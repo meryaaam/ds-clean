@@ -8,7 +8,7 @@ import UltimateFeatures from 'sections/ultimate-features';
 import CustomerSupport from 'sections/customer-support';
 import Pricing from 'sections/pricing';
 import Support from 'sections/support';
-import Clients from 'sections/clients';
+import Clients from 'sections/clients'; 
 import Blog from 'sections/blog';
 import Faq from 'sections/faq';
 import Contact from 'sections/contact';
