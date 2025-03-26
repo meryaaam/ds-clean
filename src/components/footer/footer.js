@@ -20,7 +20,7 @@ export default function Footer() {
       <Container>
         <Box sx={styles.footerInner}>
           <Box sx={styles.copyright}>
-            {/*<Logo sx={styles.logo} />*/}
+            <Logo sx={styles.logo} />
             <Text as="span">
               Copyright by {new Date().getFullYear()} M, Inc
             </Text>
