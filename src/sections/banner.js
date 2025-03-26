@@ -31,24 +31,26 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.bannerContent}>
             <Heading as="h1">
-            Clean Beyond the Surface 
+            Sauberkeit jenseits der Oberfläche
+
             </Heading>
             <Text as="p">
-            We provide deep, thorough cleaning for carpets, 
-            staircases, and facades, enhancing appearance and promoting a healthier,
-             welcoming environment.
+            Wir bieten eine gründliche, tiefgehende Reinigung für Teppiche,
+             Treppen und Fassaden, verbessern das Erscheinungsbild und fördern 
+             eine gesündere, einladendere Umgebung.
             </Text>
             <SubscriptionForm sx={styles.subscriptionForm} />
+            {/* 
             <Flex sx={styles.sponsoredBy}>
               <Text as="span">Our clients</Text>
-              <Flex sx={styles.sponsor}>
+             <Flex sx={styles.sponsor}>
                 {logos?.map((logo, index) => (
                   <Flex as="figure" key={index}>
                     <Image src={logo.src} alt={logo.name} />
                   </Flex>
                 ))}
               </Flex>
-            </Flex>
+            </Flex>*/}
           </Box>
         </Box>
       </Container>

@@ -14,12 +14,13 @@ const data = [
     title: 'Email client support',
     text: `Ultimate access to all credit popular exercises and assessments materials`,
   },
-  {
+  {/*
+    {
     id: 2,
     icon: icon2,
     title: 'Live ticket support',
     text: `Total assessment corrections with live support tickets download access system`,
-  },
+  }*/},
 ];
 
 const Support = () => {
@@ -30,12 +31,19 @@ const Support = () => {
           <div sx={styles.content}>
             <div sx={styles.heading}>
               <Heading sx={styles.title}>
-                Do you need help? Our support team ready to help you
+              Unsere besonderen Dienstleistungen
               </Heading>
               <Text as="p" sx={styles.summary}>
-                Get your tests delivered at let home collect sample from the
-                victory of the managements that supplies best design system
-                guidelines ever.
+              Nicht alles, was alt ist, ist schlecht. 
+              Manche Materialien benötigen besondere Zuwendung  und danken es mit Langlebigkeit und Schönheit.
+              </Text>
+              <br/>
+              <Text as="p" sx={styles.summary}>
+              Sie habe spezielle Fußböden aus Kork, Parkett, Dielung oder elastische Böden, wir haben die Erfahrung und das Können.
+              </Text>
+              <br/>
+              <Text as="p" sx={styles.summary}>
+              Jetzt individuelles Angebot anfragen!
               </Text>
             </div>
             {/* <SectionHeading

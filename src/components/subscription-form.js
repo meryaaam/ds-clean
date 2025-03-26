@@ -8,8 +8,8 @@ const SubscriptionForm = ({ buttonLabel, ...props }) => {
       <Label htmlFor="email" variant="styles.srOnly">
         Email
       </Label>
-      <Input type="email" id="email" placeholder="Enter Email address" />
-      <Button>{buttonLabel ?? 'Get Started'}</Button>
+      <Input type="email" id="email" placeholder="Geben Sie Ihre E-Mail-Adresse ein." />
+      <Button>{buttonLabel ?? 'Loslegen'}</Button>
     </Flex>
   );
 };
