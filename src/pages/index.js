@@ -8,9 +8,10 @@ import UltimateFeatures from 'sections/ultimate-features';
 import CustomerSupport from 'sections/customer-support';
 import Pricing from 'sections/pricing';
 import Support from 'sections/support';
-import Clients from 'sections/clients';
+import Clients from 'sections/clients'; 
 import Blog from 'sections/blog';
 import Faq from 'sections/faq';
+import Contact from 'sections/contact';
 
 export default function IndexPage() {
   return (
@@ -21,10 +22,13 @@ export default function IndexPage() {
           description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
         />
         <Banner />
+       
         <UltimateFeatures />
-        {/*<CustomerSupport />
-        <Pricing />
+        <CustomerSupport />
         <Support />
+        <Contact />
+        {/*<Pricing />
+       
         <Clients />
         <Blog />
         <Faq />*/}
