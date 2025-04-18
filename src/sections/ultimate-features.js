@@ -22,16 +22,16 @@ const data = [
     id: 1,
     icon: icon1,
     path: '#!',
-    title: 'Glas-/Rahmen­reinigung',
-    description: `We provide professional cleaning services for glass frames, ensuring they stay clear and spotless.`,
+    title: 'Glasreinigung ',
+    description: `Streifenfreie Reinigung von Glasflächen für einen professionellen Auftritt – innen wie außen.`,
     image : img1
   },
   {
     id: 2,
     icon: icon2,
     path: '#!',
-    title: 'Bodenreinigung',
-    description: `Keep your floors pristine with our thorough cleaning services designed for all types of flooring.`,
+    title: 'Bauendreinigung / Bauschlussreinigung',
+    description: `Gründliche Reinigung nach Bau- oder Renovierungsarbeiten – wir entfernen Bauschmutz, Staub und Rückstände für eine saubere Übergabe.`,
     image : img2
   },
   {
@@ -39,15 +39,15 @@ const data = [
     icon: icon3,
     path: '#!',
     title: 'Fassadenreinigung',
-    description: `Unsere Fassadenreinigung entfernt Schmutz und Flecken und sorgt für ein frisches Aussehen Ihrer Immobilie.`,
+    description: `Auffrischung Ihrer Außenflächen – für ein gepflegtes Erscheinungsbild und Werterhalt.`,
     image : img3
   },
   {
     id: 4,
     icon: icon4,
     path: '#!',
-    title: 'Teppichreinigung',
-    description: `Wir bieten eine Tiefenreinigung für Teppiche, um Staub, Flecken und Allergene zu entfernen und sie frisch und hygienisch zu halten.`,
+    title: 'Sonderreinigung',
+    description: `Sie haben besondere Anforderungen? Ob Bauendreinigung, Grundreinigung oder einmalige Aktionen – wir sind flexibel einsatzbereit.`,
     image : img4
   },
   {
@@ -55,7 +55,7 @@ const data = [
     icon: icon5,
     path: '#!',
     title: 'Treppenhausreinigung',
-    description: `Unsere Treppenhausreinigung sorgt für Sauberkeit und Sicherheit in Ihrem Gebäude.`,
+    description: `Pflege von Treppenhäusern in gewerblichen oder gemischt genutzten Gebäuden – sauber, strukturiert und dokumentiert.`,
     image : img5
   },
   {
@@ -63,7 +63,7 @@ const data = [
     icon: icon6,
     path: '#!',
     title: 'Unterhaltsreinigung',
-    description: `Regelmäßige Reinigungslösungen zur Aufrechterhaltung der Sauberkeit und Hygiene Ihrer Immobilie.`,
+    description: `Regelmäßige Reinigung Ihrer gewerblichen Räume – individuell abgestimmt auf Ihre Arbeitszeiten und Nutzungsfrequenz.`,
     image : img6
   },
 ];

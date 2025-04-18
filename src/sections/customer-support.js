@@ -6,13 +6,10 @@ import Image from 'components/image';
 import support from 'assets/images/4176370.jpg';
 
 const list = [
-  'Pflege für lange Haltbarkeit.',
-
-  'Bodenpflege nach Maß.',
-  
-  'Spezialisten für Ihr Zuhause.',
-  
-  'Perfekte Pflege für Böden.'
+  'Gründliche und regelmäßige Reinigung nach Bedarf',
+  'Flexible Vertragsmodelle mit kurzen Kündigungsfristen',
+ 'Transparente Kommunikation und zuverlässiger Service',
+ 'Maßgeschneiderte Lösungen für Ihr Objekt',
 ];
 
 const CustomerSupport = () => {
@@ -25,16 +22,17 @@ const CustomerSupport = () => {
           </Box>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-            Unsere besonderen Dienstleistungen
+            Über uns / Warum wir?
+
 
             </Heading>
             <Text as="p" sx={styles.summary}>
-            Nicht alles, was alt ist, ist schlecht.
-            Manche Materialien benötigen besondere Zuwendung  und danken es mit Langlebigkeit und Schönheit.
+            Westrhein Gebäudedienste – Ihr Partner für gewerbliche Reinigungslösungen
+            Wir bieten professionelle und zuverlässige Reinigungsdienstleistungen für Unternehmen, Praxen, Büros, Wohnanlagen und viele weitere gewerblich genutzte Objekte.
+
             </Text>
             <Text as="p" sx={styles.summary}>
-            Sie habe spezielle Fußböden aus Kork, Parkett, Dielung oder elastische Böden, wir haben die Erfahrung und das Können.
-            </Text>
+            Was Sie bei uns erwartet:            </Text>
 
             <Grid sx={styles.list} as="ul">
               {list.map((item, i) => (
@@ -47,6 +45,10 @@ const CustomerSupport = () => {
                 </Text>
               ))}
             </Grid>
+            <Text as="p" sx={styles.summary}>
+
+            Ob Einzelunternehmen, Bürogebäude oder eine ganze Liegenschaft – wir sorgen für gepflegte Räume, die Eindruck machen.
+            </Text>
           </Box>
         </Box>
       </Container>
@@ -58,8 +60,10 @@ export default CustomerSupport;
 
 const styles = {
   section: {
-    pt: [8, null, 12, 6, null, 15],
+    pt: [18, null, 12, 6, null, 15],
     pb: [null, null, null, 8, 0],
+    mt: [4, null, null, 5, 4, 5],
+    mb: [4, null, null, 5, 4, 5],
   },
   grid: {
     gap: [null, null, null, null, 2],
@@ -105,7 +109,7 @@ const styles = {
     maxWidth: 470,
     m: [null, null, null, '20px auto 0', '15px 0 0', null, 'unset'],
   },
-  list: {
+  /*list: {
     gap: '0 18px',
     gridTemplateColumns: ['repeat(2, 142px)', null, null, 'repeat(2, 200px)'],
     justifyContent: [null, null, null, 'center', 'unset'],
@@ -118,6 +122,26 @@ const styles = {
       alignItems: 'center',
       color: 'textSecondary',
       display: 'flex',
+      lineHeight: [2.81, null, null, null, 2.2, 2.81],
+    },
+  },*/
+  list: {
+    gap: '0 18px',
+    display: 'flex',       // Use flexbox for full row
+    flexWrap: 'wrap',      // Allow items to wrap onto the next line
+    justifyContent: 'space-between', // Spread out items evenly
+    listStyle: 'none',
+    mt: [4, null, null, 5, 4, 5],
+    mb: [4, null, null, 5, 4, 5],
+    p: 0,
+    width: '100%',         // Ensure the list takes up full width
+    li: {
+      fontSize: [0, 1, null, 2, '15px', 2],
+      fontWeight: 500,
+      alignItems: 'center',
+      color: 'textSecondary',
+      display: 'flex',
+      width: '100%',        // Make each list item full width
       lineHeight: [2.81, null, null, null, 2.2, 2.81],
     },
   },

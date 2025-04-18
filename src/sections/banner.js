@@ -31,13 +31,12 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.bannerContent}>
             <Heading as="h1">
-            Sauberkeit jenseits der Oberfläche
+            Gebäudereinigung für Gewerbekunden – zuverlässig, flexibel, gründlich
+
 
             </Heading>
             <Text as="p">
-            Wir bieten eine gründliche, tiefgehende Reinigung für Teppiche,
-             Treppen und Fassaden, verbessern das Erscheinungsbild und fördern 
-             eine gesündere, einladendere Umgebung.
+            Reinigungsdienstleistungen für Unternehmen jeder Art – abgestimmt auf Ihre Anforderungen und Betriebsabläufe.
             </Text>
             <SubscriptionForm sx={styles.subscriptionForm} />
             {/* 
@@ -84,13 +83,13 @@ const styles = {
     h1: {
       fontFamily: 'headingAlt',
       fontSize: [9, null, null, 10, 12, 45, 16],
-      lineHeight: [1.31, null, null, 1.5, null, 1.26],
+      lineHeight: [2, null, null, 1.5, null, 1.26],
       letterSpacing: [0, null, null, null, '-1.5px'],
       color: 'white',
     },
     p: {
       fontSize: ['13px', null, null, 2, 3],
-      lineHeight: [1.87, null, null, 2, null, 2.33],
+      lineHeight: [2.3, null, null, 2, null, 2.33],
       color: 'white',
       maxWidth: [null, null, 370, 470],
       m: ['20px auto 0', null, null, null, '25px auto 0'],
