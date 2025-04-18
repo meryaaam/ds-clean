@@ -17,14 +17,21 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
-        <SEO
-          title="Cleaning Agency"
-          description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
-        />
+      <SEO
+        title="Gebäudereinigung NRW | Gewerbliche Reinigungsfirma in Düsseldorf und Köln"
+        description="Professionelle Reinigungsdienstleistungen in NRW – Treppenhausreinigung, Fassadenreinigung, Büroreinigung, Glasreinigung, Teppichreinigung, Bauendreinigung und flexible Reinigungsverträge für Unternehmen in Düsseldorf und Köln."
+        keywords="Gebäudereinigung NRW, Gewerbliche Reinigungsfirma Düsseldorf, Köln, Treppenhausreinigung Gewerbe, Fassadenreinigung Firma, Reinigungsdienst für Unternehmen, Glasreinigung professionell NRW, Unterhaltsreinigung Büro, Teppichreinigung Büro, Bauendreinigung NRW, flexible Reinigungsverträge NRW"
+      />
         <Banner />
-       
-        <UltimateFeatures />
+        <br></br>
+        <br></br>
+        <br></br>
         <CustomerSupport />
+        <br></br>
+        <br></br>
+        <br></br>
+        <UltimateFeatures />
+        
         <Support />
         <Contact />
         {/*<Pricing />
